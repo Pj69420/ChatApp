@@ -1,0 +1,139 @@
+.container {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: #e16e79;
+  border-radius: 12px;
+  max-width: 955px;
+  border: 5px solid #c2cad0;
+  margin: auto;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e16e79;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#messageFile {
+  display: none;
+}
+
+#icon {
+  height: 50px;
+}
+
+#icon:hover {
+  transition-duration: 0.1s;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.message {
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #e16e79;
+  padding: 10px;
+  margin: 10px;
+}
+
+.message span {
+  color: white;
+  font-size: 10px;
+  font-weight: 350;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.left {
+  border-radius: 0px 12px 12px 12px;
+  max-width: 50%;
+  float: left;
+  clear: both;
+  background-color: #228fcf;
+  overflow-wrap: break-word;
+}
+
+.right {
+  border-radius: 12px 0px 12px 12px;
+  max-width: 50%;
+  float: right;
+  clear: both;
+  background-color: #364eb9;
+  overflow-wrap: break-word;
+}
+
+.center {
+  border-radius: 12px;
+  clear: both;
+  margin-left: 35%;
+  width: 30%;
+  text-align: center;
+  background-color: #d4a656;
+}
+
+.nameLeft {
+  float: left;
+  clear: both;
+  margin-left: 2%;
+}
+
+.nameRight {
+  float: right;
+  clear: both;
+  margin-right: 2%;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1%;
+}
+
+.display {
+  display: none;
+}
+
+#messageInp {
+  width: 60%;
+  height: 40px;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  height: 50px;
+  width: 100px;
+  background-color: #006344;
+}
+
+button:hover {
+  background-color: #b6c61a;
+  transition-duration: 0.5s;
+}
+
+button:focus {
+  outline: none;
+}

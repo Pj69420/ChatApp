@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+    </div>
+
+    <form>
+        <input type="text" name="message" id="messageInp" autocomplete="off">
+        <label for="messageFile">
+            <img id="icon" src="photo.png">
+        </label>
+        <input type="file" name="message" id="messageFile" accept="image/*, audio/*">
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+</body>
+
+</html>
